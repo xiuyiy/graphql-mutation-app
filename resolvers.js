@@ -9,6 +9,9 @@ const Mutation = {
     }
 }
 const Query = {
-    greeting: () => "hello"
+    greeting: () => "hello",
+    studentById: (root, args, context, info) => {
+        return db.students.get(args.id)
+    }
 }
 module.exports = { Query, Mutation }

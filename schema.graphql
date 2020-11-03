@@ -1,7 +1,15 @@
 type Query {
   greeting: String
+  studentById(id: ID!): Student
 }
 
 type Mutation {
   createStudent(collegeId: ID, firstName: String, lastName: String): String
+}
+
+type Student {
+  id: ID!
+  firstName: String
+  lastName: String
+  collegeId: String
 }
