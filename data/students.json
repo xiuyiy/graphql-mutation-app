@@ -34,5 +34,11 @@
     "collegeId": "col-2",
     "firstName": "Tim",
     "lastName": "George"
+  },
+  {
+    "id": "SJKrRZJFP",
+    "collegeId": "col-101",
+    "firstName": "Susan",
+    "lastName": "George"
   }
 ]
